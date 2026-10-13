@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 冷启动闪屏：粉蓝渐变 + icon-1 居中 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#E8F1FD"
+                android:centerColor="#F3EAFB"
+                android:endColor="#FDEBF3"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item
+        android:width="108dp"
+        android:height="108dp"
+        android:gravity="center">
+        <bitmap
+            android:src="@mipmap/ic_launcher"
+            android:gravity="fill" />
+    </item>
+</layer-list>
